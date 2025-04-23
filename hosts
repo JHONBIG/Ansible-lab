@@ -1,12 +1,12 @@
 #servidores de aplicações
 [apps] 
-3.91.244.165 
-3.85.18.140 
+54.175.113.249
+3.91.197.90 
 
 #servidores de banco de dados
 [bancos] 
-34.228.13.98 
-54.243.5.30 
+3.80.21.233 
+54.92.198.87
  
 #bloco de variaveis de permissões para os servidores de aplicações
 [apps:vars]

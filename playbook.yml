@@ -1,0 +1,21 @@
+- name: Ping em todas as máquinas
+  hosts: all
+  remote_user: ec2-user
+  tasks:
+    - name: Execução do ping  
+      ping:
+
+- name: Instalação e execução do Docker
+  hosts: bancos
+  remote_user: ec2-user 
+  tasks:
+    - name: Atualizar o yum e instalar o Docker
+      yum:
+        update_cache: yes
+        name: docker
+        state: present
+
+    - name: Garantindo a instação do Docker
+      service:
+        name: docker 
+        state: started
