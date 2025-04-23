@@ -1,0 +1,22 @@
+#servidores de aplicações
+[apps] 
+3.91.244.165 
+3.85.18.140 
+
+#servidores de banco de dados
+[bancos] 
+34.228.13.98 
+54.243.5.30 
+ 
+#bloco de variaveis de permissões para os servidores de aplicações
+[apps:vars]
+ansible_ssh_private_key_file=~/Downloads/keyp1.pem
+ansible_user=ec2-user
+ansible_become=true
+
+#bloco de variaveis de permissões para servidores de banco de dados
+#become: true é o comando, que permite que o Ansible utilize permissões elevadas.
+[bancos:vars] 
+ansible_ssh_private_key_file=~/Downloads/keyp1.pem 
+ansible_user=ec2-user
+ansible_become=true  
