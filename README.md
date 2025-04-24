@@ -10,6 +10,7 @@ Ansible-lab/
 ├── hosts               # Inventário (estático ou dinâmico)
 ├── index.html          # Página de teste para deploy (ex: via NGINX)
 ├── maquina.config      # Configurações de provisionamento (ex: EC2, AMI, VPC)
+├── playbook.yml        # Playbook principal com tarefas de automação
 ├── README.md           # Este documento
 ```
 
@@ -77,4 +78,5 @@ Ansible-lab/
 **Autor:** [Jônathan Souza](https://github.com/JHONBIG)  
 **Licença:** MIT
 ```
----
+
+--- Yeshua is lord!
