@@ -79,4 +79,4 @@ Ansible-lab/
 **Licença:** MIT
 ```
 
---- Yeshua is lord!
+--- Yeshua is the lord!
